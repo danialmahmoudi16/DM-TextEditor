@@ -24,8 +24,8 @@ module.exports = () => {
       }),
 
       new InjectManifest({
-        swSrc: './src/js/sw.js',
-        swDest: 'sw.js',
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
 
       new WebpackPwaManifest({
